@@ -6,25 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <meta name="description" content="Profesional Photographer available for all events"/>
     <meta name="robots" content="index, follow"/>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="photo_style.css" rel="stylesheet" type="text/css"/>
     <title>Elena Joy | Photographer</title>
 </head>
 <body>
     <header class="main-head">
     <nav>
         <h1 id="logo">Elena Joy</h1>
-        <imput type="checkbox" class="menu-check"></imput>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="burger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+          </div>
+        </nav>
 </header>
 <main>
     <section class="hero">
@@ -42,12 +41,12 @@ I'm so excited to help capture all the moments you're always going to want to re
             <img src="./Images/plant2.png" alt="" class="plant2 plant"/>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-image">
             <h5>Minimal</h5>
             <img src="./Images/about-image.png" alt="potrait-picture">
         </div>
-        <div class="about-text flex">
+        <div class="about-text flex" id="work">
             <h2>Elena Joy</h2>
             <div class="about-life">
                 <h3>What I am Known For</h3>
@@ -63,7 +62,7 @@ I'm so excited to help capture all the moments you're always going to want to re
             </div>
         </div>
     </section>
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <header class="gallery-head">
             <h2>My Work</h2>
             <p>My Passion</p>
@@ -73,7 +72,7 @@ I'm so excited to help capture all the moments you're always going to want to re
         <img class="gallery3" src="./Images/gallery-3.jpg" alt="lady in tshirt">
         <img class="gallery4" src="./Images/gallery-4.jpg" alt="lady in a jacket">
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="form-wrapper flex">
             <h2>Get in<br/> 
                 <span>Touch</span>
@@ -95,5 +94,6 @@ I'm so excited to help capture all the moments you're always going to want to re
         <li><a href="#"><img src="./Images/instagram 1.svg" alt="instagram-social-media"</a></li>
     </ul>
 </footer>
+<script src="photo_app.js"></script>
 </body>
 </html>
